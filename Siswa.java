@@ -5,11 +5,17 @@ public class Siswa {
     String nama;
     double ipk;
 
-    //Constructor (yang membangun object)
-    public Siswa () {
+    //Constructor Default (yang membangun object)
+    public Siswa() {
         id = 0;
         nama = "Kosong";
         ipk = 0.0;
+    }
+    //Constructor Parameter 
+    public Siswa(int i, String n, double k) {
+        id = i;
+        nama = n;
+        ipk = k;
     }
 
     //Getter

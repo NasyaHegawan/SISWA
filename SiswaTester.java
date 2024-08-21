@@ -8,6 +8,7 @@ public class SiswaTester {
         Siswa cinta = new Siswa();
         Siswa grace = new Siswa();
         Siswa lia = new Siswa();
+        Siswa shabrina = new Siswa(32, "Shabrina", 89);
 
         nasya.id = 26;
         nasya.nama = "Nasya";
@@ -30,5 +31,6 @@ public class SiswaTester {
         cinta.print();
         grace.print();
         lia.print();
+        shabrina.print();
     }
 }
